@@ -7,9 +7,7 @@ let name = "John";
 
 // we can use it in our html like this
 let output = (
-	<span>
-		James is{age} years old
-	</span>
+	<span>{name} is{age} years old</span>
 );
 
 // use react-dom to render it
